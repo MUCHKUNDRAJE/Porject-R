@@ -437,6 +437,64 @@ gsap.from("#rise ",{
   ease:Power3
 })
 
+gsap.to("#tary1 ",{
+  scrollTrigger:{
+    trigger:"#page11",
+    // pin:"7%",
+    start:"7%",
+    end:"120%",
+    // endTrigger:"#tary1",
+   scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  
+   
+  }, 
+  x:600,
+  // opacity:1,
+  delay:2,
+  duration:0.9,
+  stagger:1,
+  
+})
+
+gsap.from("#tary2 ",{
+  scrollTrigger:{
+    trigger:"#page11",
+    // pin:"7%",
+    start:"10%",
+    end:"120%",
+    // endTrigger:"#tary1",
+   scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  
+   
+  }, 
+  x:-1000,
+  // opacity:1,
+  delay:2,
+  duration:0.9,
+  stagger:1,
+  
+})
+
+gsap.from("#textcontain ",{
+  scrollTrigger:{
+    trigger:"#page11",
+    start:"68%",
+    end:"90%",
+   scrub:2,
+   markers:true,
+  //  endTrigger:"#paragrah p",
+  
+   
+  }, 
+  x:300,
+  // width:"1000%",
+  duration:1,
+  ease:Power3,
+})
 
 
 
