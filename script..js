@@ -485,7 +485,7 @@ gsap.from("#textcontain ",{
     start:"68%",
     end:"90%",
    scrub:2,
-   markers:true,
+  //  markers:true,
   //  endTrigger:"#paragrah p",
   
    
