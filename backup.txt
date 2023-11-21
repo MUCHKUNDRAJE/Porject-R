@@ -311,3 +311,40 @@ gsap.from("#datatext h1 ,#data p",{
            
           
             })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #backup
+                          
+                <h3>Set Up Package Structure:</h3>
+               
+                <h3>Write R Code:</h3>
+                <p>Place functions in the R/ directory and document using Roxygen comments.</p>
+                <h3>Documentation:</h3>
+                <p>Run "roxygen2" to generate documentation in "man/"</p>
+                <h3>Version Control:</h3>
+                <p>Use Git for version control.</p>
+                <h3>Testing:</h3>
+                <p>Write tests using testthat and place them in  "tests/"</p>
+                <h3>Build and Install:</h3>
+                <p>Use devtools to build and install the package locally for testing.</p>
+                <h3>Distribution:</h3>
+                <p>Share the package by distributing the source or submitting to CRAN.</p>
+                <h3>Continuous Integration:</h3>
+                <p>Set up CI to run tests automatically.</p>
+                <h3>Documentation:</h3>
+                <p>Create a README file for users with installation and usage details.</p>
+                <h3>Maintenance:</h3>
+                <p>Regularly update the package to address bugs and maintain compatibility.</p>
