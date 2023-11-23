@@ -923,6 +923,7 @@ background-color:rgb(253,69, 135) ;
 border-radius:20px 60px 40px 80px;
 margin-left: 20%;
 color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
 
    }
@@ -950,12 +951,14 @@ color: white;
  height: 100%;
  /* background-color: #75AADB; */
  font-size: 1.16vw;
+ 
  /* transition:  ease 3s; */
 
 }
 #multitext h1{
     font-size: 2vw;
     margin-left: 80px;
+    
 }
 #p{
 margin-bottom: 10px;
@@ -969,6 +972,8 @@ margin-bottom: 10px;
     align-items: center;
     justify-content: space-between;
     overflow: auto;
+     scroll-behavior: smooth;
+     
     /* background-color:palevioletred; */
 }
 
@@ -982,3 +987,26 @@ margin-bottom: 10px;
     padding-top: 50px;
     padding-left: 300px;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    transition: ease 1s;
+  }::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+  }::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    background-clip: content-box;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+
+  
