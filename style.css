@@ -989,19 +989,22 @@ margin-bottom: 10px;
 }
 ::-webkit-scrollbar {
     width: 10px;
+  
   }
   ::-webkit-scrollbar-track {
     background-color: transparent;
   }
   ::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
-    transition: ease 1s;
+   
   }::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
     border-radius: 20px;
   }::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
     border-radius: 20px;
+    height: 100px;
+    border: 1px solid transparent;
     background-clip: content-box;
     
   }
@@ -1009,4 +1012,81 @@ margin-bottom: 10px;
     background-color: #a8bbbf;
   }
 
+  #cridetpage{
+     
+  }
+  #cridetpage h1 {
+     font-size: 14vw;
+     margin-top: 100px;
+     text-transform: capitalize;
+     
+  }
+  #credit h2
+{
+    font-family:"General Sans";
+    text-transform: capitalize;
+   
+}  #credit {
+    display: flex;
+    justify-content: space-evenly;
+} #credit p{
   
+}
+
+
+
+#credit2{
+    font-family:"General Sans";
+    display: flex;
+    
+}#credit2 p{
+    margin-left: 28%;
+    font-family:"General Sans";
+}
+#credit3{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 2%;
+}
+#credit3 h2{
+    font-family:"General Sans";  
+    text-transform: capitalize;
+  
+}
+#cre{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:"General Sans"; 
+    text-transform: uppercase;
+}#cre #kis{
+    display: flex;  
+    /* background-color: #0869c9; */
+    width: 20%;
+    margin-left: 60px;
+}#cre #kis p{
+    margin-left: 8%;
+    font-family:"General Sans"; 
+}#team {
+  text-align: center;
+  margin-top: 40px;
+ 
+}#team h2{
+    font-family:"General Sans"; 
+    text-transform: capitalize;
+
+}#members{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:5px;
+}#members p{
+    font-family:"General Sans"; 
+    text-transform: uppercase;
+}#thnaks{
+    font-size: 4vw;
+    text-transform: capitalize;
+    margin-left: 50%;
+    margin-top: 40px;
+}#thnaks h1{
+    font-family:"futura"; 
+}

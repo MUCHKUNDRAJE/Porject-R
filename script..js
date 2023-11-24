@@ -497,15 +497,164 @@ gsap.from("#textcontain ",{
 })
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+gsap.from("#cridetpage h1",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"55%",
+    end:"90%",
+   scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  x: 100,
+  delay:0.4,
+  duration:1,
+  ease:Power3,
+  // opacity:0,
+  // rotate:10,
 
+})
 
+// gsap.from("#animation",{
+//   scrollTrigger:{
+//     trigger:"#page12",
+//     start:"68%",
+//     end:"90%",
+//    scrub:2,
+//    markers:true,
+//   //  endTrigger:"#paragrah p",
+//   }, 
+//   y: 20,
+//   delay:0.4,
+//   duration:1,
+//   ease:Power3,
+//   opacity:0,
+//   // rotate:10,
+  
 
+// })
+gsap.from("#credit",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"68%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:0.4,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
 
+})
+gsap.from("#credit2",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"70%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:1,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
 
+})
 
+gsap.from("#credit3",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"75%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:0.4,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
 
-          
-       
+})
+gsap.from("#cre",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"78%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:1,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
+
+})
+
+gsap.from("#team",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"80%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:0.4,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
+})    
+gsap.from("#members",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"85%",
+    end:"90%",
+  //  scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  y: 20,
+  delay:1,
+  duration:1,
+  ease:Power3,
+  opacity:0,
+  // rotate:10,
+  
+}) 
+gsap.from("#thnaks",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"110%",
+    // end:"90%",
+   scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+ x:-40,
+  // rotate:-10,
+  duration:1,
+
+}) 
           
          
 
