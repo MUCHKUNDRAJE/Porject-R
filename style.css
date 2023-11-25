@@ -70,9 +70,7 @@ html, body{
     
 } #sreachbar input[placeholder="Search.."]{
     font-family: "gilroy";
-} #tags{
-
-}#tags i{
+} #tags i{
     margin-right: 30px;
     color: #0869c9;
     font-size: 20px;
@@ -1028,9 +1026,7 @@ margin-bottom: 10px;
     background-color: #a8bbbf;
   }
 
-  #cridetpage{
-     
-  }
+ 
   #cridetpage h1 {
      font-size: 14vw;
      margin-top: 100px;
@@ -1073,10 +1069,7 @@ line {
 }  #credit {
     display: flex;
     justify-content: space-evenly;
-} #credit p{
-  
-}
-
+} 
 
 
 #credit2{
