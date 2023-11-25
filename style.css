@@ -10,7 +10,23 @@ html, body{
     width: 100%;
     scroll-behavior: smooth;
     
-}#main{
+}#cursor {
+    height: 180px;
+    width: 180px;
+    background-color:rgb(253, 69, 135);
+    border-radius: 60%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 100;
+    filter: blur(100px);
+
+}
+
+
+
+
+
+#main{
     width: 100%;
     min-height: 100vh;
     background-color: #fff;
@@ -1019,8 +1035,36 @@ margin-bottom: 10px;
      font-size: 14vw;
      margin-top: 100px;
      text-transform: capitalize;
+     position: relative;
      
   }
+  #cridetpage h1::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    bottom: 15%;
+    left: 0%;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+    background-color: #000;
+  }
+@keyframes 
+line {
+    0%{
+        width: 0;
+        left: 0;
+    }50%{
+        width: 50%;
+        left: 0;
+    }100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+ 
   #credit h2
 {
     font-family:"General Sans";
@@ -1056,15 +1100,22 @@ margin-bottom: 10px;
 #cre{
     display: flex;
     justify-content: space-evenly;
-    font-family:"General Sans"; 
+ 
     text-transform: uppercase;
-}#cre #kis{
+}#cre p{
+    font-family:"General Sans"; 
+}
+
+
+
+#cre #kis{
     display: flex;  
     /* background-color: #0869c9; */
-    width: 20%;
-    margin-left: 60px;
+    justify-content: flex-end;
+    width: 26%;
+    /* margin-left: 10px; */
 }#cre #kis p{
-    margin-left: 8%;
+    margin-left: 6%;
     font-family:"General Sans"; 
 }#team {
   text-align: center;
