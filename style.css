@@ -337,6 +337,7 @@ border-radius: 50px;
     height: 75vh;
     background-color: #0869c9;
     border-radius: 50px;
+    position: relative;
 }
 #data{
 
@@ -1046,7 +1047,7 @@ margin-bottom: 10px;
     animation-duration: 4s;
     animation-iteration-count: infinite;
    animation-fill-mode: forwards;
-    background-color: #000;
+    background-color: #fff;
   }
 @keyframes 
 line {
@@ -1134,4 +1135,7 @@ line {
     margin-top: 40px;
 }#thnaks h1{
     font-family:"futura"; 
+}#navhoz a{
+text-decoration: none;
+color: #000;
 }

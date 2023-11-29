@@ -689,20 +689,20 @@ cursorAnimation();
 
 
 
-// gsap.to("#page13",{
-//   scrollTrigger:{
-//     trigger:"#page12",
-//     start:"113%",
-//     // end:"90%",
-//    scrub:2,
-//   //  markers:true,
-//   //  endTrigger:"#paragrah p",
-//   }, 
-//   backgroundColor:"#000",
-//   color:"#fff",
+gsap.to("#page13",{
+  scrollTrigger:{
+    trigger:"#page12",
+    start:"113%",
+    // end:"90%",
+   scrub:2,
+  //  markers:true,
+  //  endTrigger:"#paragrah p",
+  }, 
+  backgroundColor:"#000",
+  color:"#fff",
 
 
-// }) 
+}) 
 
 
 
